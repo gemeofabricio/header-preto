@@ -1,0 +1,30 @@
+body{
+margin: 0;
+}
+
+.navegacao{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navegacao ol{
+list-style-type: none;
+display: flex;
+}
+
+.navegacao ol li{
+padding-left: 50px;
+}
+
+.navegacao ol li:hover{
+cursor: pointer;
+color: red;
+}
+h1{
+    color: red;
+}
